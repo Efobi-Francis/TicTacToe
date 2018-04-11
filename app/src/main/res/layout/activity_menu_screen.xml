@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fobi.tictactoe.MenuScreen">
+
+   <RelativeLayout
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#fff">
+
+       <ImageView
+           android:id="@+id/image_2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:src="@drawable/tick_logo" />
+
+       <Button
+           android:id="@+id/but1"
+           android:layout_width="180dp"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/but2"
+           android:layout_alignStart="@+id/but2"
+           android:layout_below="@+id/image_2"
+           android:text="player vs computer"
+           android:textColor="#fff"
+           android:textStyle="bold"
+           android:textSize="16sp"
+           android:layout_marginTop="10dp"
+           android:background="#fc6748"/>
+
+       <Button
+           android:id="@+id/but2"
+           android:layout_width="180dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/but1"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="13dp"
+           android:text="player vs player"
+           android:textColor="#fff"
+           android:textStyle="bold"
+           android:textSize="16sp"
+           android:background="#ffcf40"/>
+
+       <Button
+           android:id="@+id/but3"
+           android:layout_width="180dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/but2"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="13dp"
+           android:text="credits"
+           android:textColor="#fff"
+           android:textStyle="bold"
+           android:textSize="16sp"
+           android:background="#5cff6c"/>
+
+   </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="tic_tac">Tic Tac Toe</string>
+
+    <string name="credit_menu">Created by Efobi Onyeka</string>
+
+</resources>
