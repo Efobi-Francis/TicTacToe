@@ -16,13 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".OptionSingle" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Mode3X3"></activity>
+        <activity android:name=".Mode3X3" />
+        <activity android:name=".Mode5X5" />
+        <activity android:name=".OptionMulti" />
+        <activity android:name=".MultiMode3X3" />
+        <activity android:name=".MultiMode5X5"></activity>
     </application>
 
 </manifest>

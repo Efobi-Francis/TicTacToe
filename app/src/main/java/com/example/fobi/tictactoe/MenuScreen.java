@@ -14,7 +14,7 @@ public class MenuScreen extends AppCompatActivity implements View.OnClickListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_screen);
+        setContentView(R.layout.menu_screen);
 
         butn1 = findViewById(R.id.but1);
         butn2 = findViewById(R.id.but2);
@@ -30,12 +30,14 @@ public class MenuScreen extends AppCompatActivity implements View.OnClickListene
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.but1 :
-                Intent single= new Intent(MenuScreen.this,MainActivity.class);
+                Intent single= new Intent(MenuScreen.this,OptionSingle.class);
                 startActivity(single);
 
                 break;
 
             case R.id.but2 :
+                Intent multi= new Intent(MenuScreen.this,OptionMulti.class);
+                startActivity(multi);
 
                 break;
 

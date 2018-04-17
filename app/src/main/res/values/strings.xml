@@ -3,5 +3,7 @@
     <string name="tic_tac">Tic Tac Toe</string>
 
     <string name="credit_menu">Created by Efobi Onyeka</string>
+    <string name="player_o_maker">O</string>
+    <string name="player_x_maker">X</string>
 
 </resources>
